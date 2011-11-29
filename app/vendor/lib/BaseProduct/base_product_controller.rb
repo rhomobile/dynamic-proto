@@ -1,8 +1,8 @@
 require 'rho/rhocontroller'
 require 'helpers/browser_helper'
-require 'vendor/lib/base_product'
+require 'vendor/lib/BaseProduct/base_product'
 
-class BaseController < Rho::RhoController
+class BaseProductController < Rho::RhoController
   include BrowserHelper
   
   def index_hook; end
